@@ -1,2 +1,7 @@
-# pix2pixColoring
-use pix2pix algorithm to color the black-and-white photograph
+彩色图像生成任务
+          任务描述：
+            --建立一个能够给黑白图片上颜色的生成神经网络模型。
+          相关信息：
+            --数据集位置 https://pan.baidu.com/s/1qDN10qbSgnc_m6tFpXw51A
+            --数据集包含60k彩色图片和对应的黑白图片，图像均是32*32，分为10个类，每类彩色黑白各6k张图
+           --50k图片构成训练集，10k图片构成测试集
