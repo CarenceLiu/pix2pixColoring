@@ -23,7 +23,7 @@ class CIFARDataset(Dataset):
         self.black_image_dir = os.path.join(self.root_dir, "images_%s_black"%(split))
         self.transform_black = transform_black
         self.transform_color = transform_color
-        self.image_filename = [file for file in os.listdir(self.color_image_dir) if file.endswith('.png')][:4096]
+        self.image_filename = [file for file in os.listdir(self.color_image_dir) if file.endswith('.png')]
         self.images_color = [Image.open(os.path.join(self.color_image_dir, file)).convert('RGB') for file in tqdm(self.image_filename, desc='read color image')]
         self.images_color = [self.transform_color(image) if self.transform_black else image for image in tqdm(self.images_color, desc="color image transform")]
         self.images_black = [Image.open(os.path.join(self.black_image_dir, file)) for file in tqdm(self.image_filename, desc='read black image')]
@@ -33,7 +33,9 @@ class CIFARDataset(Dataset):
         return len(self.images_color)
 
     def __getitem__(self, idx):
-        return self.images_color[idx], self.images_black[idx]
+        return self.images_color[idx], self.images_black[idx], int(self.image_filename[idx].split('-')[1])
+
+    
 
 if __name__ == "__main__":
     transformer_black = transforms.Compose([

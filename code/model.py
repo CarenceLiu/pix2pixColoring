@@ -90,15 +90,15 @@ class Discriminator(nn.Module):
     def __init__(self):
         super().__init__()
         # batch*(3+1)*32*32
-        self.conv1 = CNNLayer(3+1, 64, use_batchNorm=True, use_maxPool=True)
+        self.conv1 = CNNLayer(3+1, 32, use_batchNorm=True, use_maxPool=True)
         # batch*64*16*16
-        self.conv2 = CNNLayer(64, 128, use_batchNorm=True,use_maxPool=True)
+        self.conv2 = CNNLayer(32, 64, use_batchNorm=True,use_maxPool=True)
         # batch*128*8*8
-        self.conv3 = CNNLayer(128, 256, use_batchNorm=True,use_maxPool=True)
+        # self.conv3 = CNNLayer(128, 256, use_batchNorm=True,use_maxPool=True)
         # batch*256*4*4
-        self.conv4 = CNNLayer(256, 512, use_batchNorm=True,use_maxPool=False)
+        # self.conv4 = CNNLayer(256, 512, use_batchNorm=True,use_maxPool=False)
         # batch*512*4*4
-        self.conv5 = nn.Conv2d(128, 1, 3, 1, 1)
+        self.conv5 = nn.Conv2d(64, 1, 3, 1, 1)
         # batch*1*4*4
 
 
@@ -106,8 +106,8 @@ class Discriminator(nn.Module):
         x = torch.cat([x,y],dim=1)
         x = self.conv1(x)
         x = self.conv2(x)
-        x = self.conv3(x)
-        x = self.conv4(x)
+        # x = self.conv3(x)
+        # x = self.conv4(x)
         x = self.conv5(x)
         return x
 
