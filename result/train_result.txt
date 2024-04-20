@@ -1,0 +1,100 @@
+[epoch 0 train] discriminator real loss: 0.0091, discriminator fake loss: 0.0069, generator BCE loss: 0.0182, generator L1 loss: 0.1565
+[epoch 0 validation] generator total MSE loss: 4.6495
+[epoch 1 train] discriminator real loss: 0.0077, discriminator fake loss: 0.0074, generator BCE loss: 0.0173, generator L1 loss: 0.0966
+[epoch 1 validation] generator total MSE loss: 0.2863
+[epoch 2 train] discriminator real loss: 0.0062, discriminator fake loss: 0.0053, generator BCE loss: 0.0225, generator L1 loss: 0.0872
+[epoch 2 validation] generator total MSE loss: 0.1645
+[epoch 3 train] discriminator real loss: 0.0060, discriminator fake loss: 0.0052, generator BCE loss: 0.0232, generator L1 loss: 0.0863
+[epoch 3 validation] generator total MSE loss: 0.2080
+[epoch 4 train] discriminator real loss: 0.0059, discriminator fake loss: 0.0055, generator BCE loss: 0.0243, generator L1 loss: 0.0849
+[epoch 4 validation] generator total MSE loss: 0.1987
+[epoch 5 train] discriminator real loss: 0.0050, discriminator fake loss: 0.0045, generator BCE loss: 0.0271, generator L1 loss: 0.0838
+[epoch 5 validation] generator total MSE loss: 0.1841
+[epoch 6 train] discriminator real loss: 0.0045, discriminator fake loss: 0.0040, generator BCE loss: 0.0298, generator L1 loss: 0.0824
+[epoch 6 validation] generator total MSE loss: 4.7025
+[epoch 7 train] discriminator real loss: 0.0041, discriminator fake loss: 0.0037, generator BCE loss: 0.0324, generator L1 loss: 0.0816
+[epoch 7 validation] generator total MSE loss: 0.1460
+[epoch 8 train] discriminator real loss: 0.0038, discriminator fake loss: 0.0035, generator BCE loss: 0.0345, generator L1 loss: 0.0807
+[epoch 8 validation] generator total MSE loss: 0.1639
+[epoch 9 train] discriminator real loss: 0.0036, discriminator fake loss: 0.0033, generator BCE loss: 0.0362, generator L1 loss: 0.0798
+[epoch 9 validation] generator total MSE loss: 0.1769
+[epoch 10 train] discriminator real loss: 0.0037, discriminator fake loss: 0.0034, generator BCE loss: 0.0369, generator L1 loss: 0.0789
+[epoch 10 validation] generator total MSE loss: 0.2350
+[epoch 11 train] discriminator real loss: 0.0035, discriminator fake loss: 0.0032, generator BCE loss: 0.0384, generator L1 loss: 0.0778
+[epoch 11 validation] generator total MSE loss: 0.2207
+[epoch 12 train] discriminator real loss: 0.0034, discriminator fake loss: 0.0038, generator BCE loss: 0.0358, generator L1 loss: 0.0776
+[epoch 12 validation] generator total MSE loss: 0.6492
+[epoch 13 train] discriminator real loss: 0.0028, discriminator fake loss: 0.0028, generator BCE loss: 0.0412, generator L1 loss: 0.0764
+[epoch 13 validation] generator total MSE loss: 0.7438
+[epoch 14 train] discriminator real loss: 0.0038, discriminator fake loss: 0.0032, generator BCE loss: 0.0404, generator L1 loss: 0.0717
+[epoch 14 validation] generator total MSE loss: 0.1314
+[epoch 15 train] discriminator real loss: 0.0033, discriminator fake loss: 0.0029, generator BCE loss: 0.0418, generator L1 loss: 0.0700
+[epoch 15 validation] generator total MSE loss: 0.1404
+[epoch 16 train] discriminator real loss: 0.0031, discriminator fake loss: 0.0027, generator BCE loss: 0.0438, generator L1 loss: 0.0688
+[epoch 16 validation] generator total MSE loss: 0.1422
+[epoch 17 train] discriminator real loss: 0.0029, discriminator fake loss: 0.0026, generator BCE loss: 0.0456, generator L1 loss: 0.0677
+[epoch 17 validation] generator total MSE loss: 0.1889
+[epoch 18 train] discriminator real loss: 0.0028, discriminator fake loss: 0.0025, generator BCE loss: 0.0471, generator L1 loss: 0.0662
+[epoch 18 validation] generator total MSE loss: 0.1323
+[epoch 19 train] discriminator real loss: 0.0026, discriminator fake loss: 0.0024, generator BCE loss: 0.0486, generator L1 loss: 0.0652
+[epoch 19 validation] generator total MSE loss: 0.1465
+[epoch 20 train] discriminator real loss: 0.0025, discriminator fake loss: 0.0023, generator BCE loss: 0.0500, generator L1 loss: 0.0644
+[epoch 20 validation] generator total MSE loss: 0.1434
+[epoch 21 train] discriminator real loss: 0.0024, discriminator fake loss: 0.0023, generator BCE loss: 0.0514, generator L1 loss: 0.0636
+[epoch 21 validation] generator total MSE loss: 0.1453
+[epoch 22 train] discriminator real loss: 0.0024, discriminator fake loss: 0.0022, generator BCE loss: 0.0528, generator L1 loss: 0.0629
+[epoch 22 validation] generator total MSE loss: 0.1419
+[epoch 23 train] discriminator real loss: 0.0023, discriminator fake loss: 0.0021, generator BCE loss: 0.0540, generator L1 loss: 0.0623
+[epoch 23 validation] generator total MSE loss: 0.1638
+[epoch 24 train] discriminator real loss: 0.0022, discriminator fake loss: 0.0021, generator BCE loss: 0.0551, generator L1 loss: 0.0615
+[epoch 24 validation] generator total MSE loss: 0.1442
+[epoch 25 train] discriminator real loss: 0.0022, discriminator fake loss: 0.0020, generator BCE loss: 0.0562, generator L1 loss: 0.0609
+[epoch 25 validation] generator total MSE loss: 0.1404
+[epoch 26 train] discriminator real loss: 0.0021, discriminator fake loss: 0.0020, generator BCE loss: 0.0572, generator L1 loss: 0.0604
+[epoch 26 validation] generator total MSE loss: 0.1452
+[epoch 27 train] discriminator real loss: 0.0021, discriminator fake loss: 0.0019, generator BCE loss: 0.0582, generator L1 loss: 0.0597
+[epoch 27 validation] generator total MSE loss: 0.1621
+[epoch 28 train] discriminator real loss: 0.0020, discriminator fake loss: 0.0019, generator BCE loss: 0.0591, generator L1 loss: 0.0594
+[epoch 28 validation] generator total MSE loss: 0.1544
+[epoch 29 train] discriminator real loss: 0.0020, discriminator fake loss: 0.0019, generator BCE loss: 0.0600, generator L1 loss: 0.0588
+[epoch 29 validation] generator total MSE loss: 0.1398
+[epoch 30 train] discriminator real loss: 0.0019, discriminator fake loss: 0.0018, generator BCE loss: 0.0609, generator L1 loss: 0.0583
+[epoch 30 validation] generator total MSE loss: 0.1353
+[epoch 31 train] discriminator real loss: 0.0019, discriminator fake loss: 0.0018, generator BCE loss: 0.0617, generator L1 loss: 0.0578
+[epoch 31 validation] generator total MSE loss: 0.1357
+[epoch 32 train] discriminator real loss: 0.0019, discriminator fake loss: 0.0018, generator BCE loss: 0.0625, generator L1 loss: 0.0575
+[epoch 32 validation] generator total MSE loss: 0.1430
+[epoch 33 train] discriminator real loss: 0.0018, discriminator fake loss: 0.0018, generator BCE loss: 0.0632, generator L1 loss: 0.0571
+[epoch 33 validation] generator total MSE loss: 0.1363
+[epoch 34 train] discriminator real loss: 0.0018, discriminator fake loss: 0.0017, generator BCE loss: 0.0639, generator L1 loss: 0.0568
+[epoch 34 validation] generator total MSE loss: 0.1559
+[epoch 35 train] discriminator real loss: 0.0018, discriminator fake loss: 0.0017, generator BCE loss: 0.0646, generator L1 loss: 0.0564
+[epoch 35 validation] generator total MSE loss: 0.1404
+[epoch 36 train] discriminator real loss: 0.0018, discriminator fake loss: 0.0017, generator BCE loss: 0.0652, generator L1 loss: 0.0560
+[epoch 36 validation] generator total MSE loss: 0.1438
+[epoch 37 train] discriminator real loss: 0.0017, discriminator fake loss: 0.0017, generator BCE loss: 0.0658, generator L1 loss: 0.0558
+[epoch 37 validation] generator total MSE loss: 0.1456
+[epoch 38 train] discriminator real loss: 0.0017, discriminator fake loss: 0.0016, generator BCE loss: 0.0664, generator L1 loss: 0.0555
+[epoch 38 validation] generator total MSE loss: 0.1377
+[epoch 39 train] discriminator real loss: 0.0017, discriminator fake loss: 0.0016, generator BCE loss: 0.0670, generator L1 loss: 0.0551
+[epoch 39 validation] generator total MSE loss: 0.1354
+[epoch 40 train] discriminator real loss: 0.0017, discriminator fake loss: 0.0016, generator BCE loss: 0.0675, generator L1 loss: 0.0547
+[epoch 40 validation] generator total MSE loss: 0.1481
+[epoch 41 train] discriminator real loss: 0.0017, discriminator fake loss: 0.0016, generator BCE loss: 0.0680, generator L1 loss: 0.0546
+[epoch 41 validation] generator total MSE loss: 0.1411
+[epoch 42 train] discriminator real loss: 0.0016, discriminator fake loss: 0.0016, generator BCE loss: 0.0685, generator L1 loss: 0.0543
+[epoch 42 validation] generator total MSE loss: 0.1437
+[epoch 43 train] discriminator real loss: 0.0016, discriminator fake loss: 0.0016, generator BCE loss: 0.0688, generator L1 loss: 0.0541
+[epoch 43 validation] generator total MSE loss: 0.1361
+[epoch 44 train] discriminator real loss: 0.0016, discriminator fake loss: 0.0016, generator BCE loss: 0.0694, generator L1 loss: 0.0539
+[epoch 44 validation] generator total MSE loss: 0.1391
+[epoch 45 train] discriminator real loss: 0.0016, discriminator fake loss: 0.0015, generator BCE loss: 0.0698, generator L1 loss: 0.0537
+[epoch 45 validation] generator total MSE loss: 0.1382
+[epoch 46 train] discriminator real loss: 0.0016, discriminator fake loss: 0.0015, generator BCE loss: 0.0702, generator L1 loss: 0.0534
+[epoch 46 validation] generator total MSE loss: 0.1390
+[epoch 47 train] discriminator real loss: 0.0016, discriminator fake loss: 0.0015, generator BCE loss: 0.0705, generator L1 loss: 0.0532
+[epoch 47 validation] generator total MSE loss: 0.1349
+[epoch 48 train] discriminator real loss: 0.0016, discriminator fake loss: 0.0015, generator BCE loss: 0.0710, generator L1 loss: 0.0531
+[epoch 48 validation] generator total MSE loss: 0.1369
+[epoch 49 train] discriminator real loss: 0.0016, discriminator fake loss: 0.0015, generator BCE loss: 0.0713, generator L1 loss: 0.0529
+[epoch 49 validation] generator total MSE loss: 0.1382
